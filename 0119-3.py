@@ -17,3 +17,4 @@ header = {
 resp = requests.get(url=url, params=param, headers=header)
 
 print(resp.json())
+resp.close()  # 關掉resp
