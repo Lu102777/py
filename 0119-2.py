@@ -7,6 +7,6 @@ dat = {
     "kw": s
 }
 
-resp = requests.post(url, data=dat)  # 透過data猜樹進行傳遞
+resp = requests.post(url, data=dat)  # 透過data參數進行傳遞
 
 print(resp.json())
